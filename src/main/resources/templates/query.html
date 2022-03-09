@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/result}" th:object="${currency}" method="post">
+        <div class="col-md-6 form-group">
+            <label>Currency</label>
+            <input type="text" class="form-control" th:field="*{title}">
+        </div>
+
+</form>
+</body>
+</html>
